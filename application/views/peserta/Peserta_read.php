@@ -80,6 +80,7 @@
 							<tr><td>Jenis Ekstrakurikuler</td><td><?php echo $jenis_ekstrakurikuler; ?></td></tr>
 							<tr><td><span class="label label-success">Data Orangtua/Wali</span></td><td></td></tr>
 							<tr><td><span class="label label-info">Data Ayah</span></td><td></td></tr>
+							<tr><td>Nomor KK</td><td><?php echo $no_kk; ?></td></tr>
 							<tr><td>Nama Ayah</td><td><?php echo $nama_ayah; ?></td></tr>
 							<tr><td>NIK Ayah</td><td><?php echo $nik_ayah; ?></td></tr>
 							<tr><td>Tahun Lahir Ayah</td><td><?php echo $tahun_lahir_ayah; ?></td></tr>

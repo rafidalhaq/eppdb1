@@ -278,6 +278,13 @@
 		    <td style="border-bottom: 1px dotted"><?php echo $peserta->jenis_ekstrakurikuler ?></td>
 		</tr>
 	<?php } ?>
+	<?php if ($formulir->no_kk=='Ya'){ ?>		
+		<tr>  
+			<td>Nomor KK</td>
+			<td>: </td>
+			<td style="border-bottom: 1px dotted"><?php echo $peserta->no_kk ?></td>
+		</tr>
+	<?php } ?>		
 			
 		<tr>
 		    <td>Nama Ayah</td>

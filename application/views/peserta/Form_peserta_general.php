@@ -440,6 +440,14 @@
                           <?php } else { ?>
                                 <input type="hidden" class="form-control" name="jenis_ekstrakurikuler" id="jenis_ekstrakurikuler" />
                           <?php } ?>
+                          <?php if ($formulir->no_kk=='Ya'){ ?>
+                          <div class="form-group">
+                                <label for="varchar">Nomor KK <?php echo form_error('no_kk') ?></label>
+                                <input type="text" class="form-control" name="no_kk" id="no_kk" placeholder="Nomor KK harus tepat 16 karakter contoh : 3271231231231231" />
+                          </div>
+                          <?php } else { ?>
+                                <input type="hidden" class="form-control" name="no_kk" id="no_kk" />
+                          <?php } ?>                                                  
 
                           <?php if ($formulir->nama_ayah=='Ya'){ ?>
                           <div class="form-group">

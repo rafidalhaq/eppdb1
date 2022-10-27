@@ -315,6 +315,7 @@ class Member extends CI_Controller
 		$this->form_validation->set_rules('no_kip', 'no kip', 'trim|exact_length[6]');
 		$this->form_validation->set_rules('nama_tertera_di_kip', 'nama tertera di kip', 'trim');
 		$this->form_validation->set_rules('terima_fisik_kartu_kip', 'terima fisik kartu kip', 'trim');
+		$this->form_validation->set_rules('no_kk', 'nomor kk', 'trim|numeric|exact_length[16]');
 		$this->form_validation->set_rules('nama_ayah', 'nama ayah', 'trim|required');
 		$this->form_validation->set_rules('nik_ayah', 'nik ayah', 'trim|numeric|exact_length[16]');
 		$this->form_validation->set_rules('tahun_lahir_ayah', 'tahun lahir ayah', 'trim|numeric|exact_length[4]');

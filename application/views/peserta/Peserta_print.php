@@ -62,6 +62,7 @@
 			<th>No KIP</th>
 			<th>Nama Tertera Di KIK</th>
 			<th>Terima Fisik Kartu KIP</th>
+			<th>Nomor KK</th>
 			<th>Nama Ayah</th>
 			<th>NIK Ayah</th>
 			<th>Tahun Lahir Ayah</th>

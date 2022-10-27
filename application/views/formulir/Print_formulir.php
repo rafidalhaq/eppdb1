@@ -272,6 +272,13 @@
 		    <td style="border-bottom: 1px dotted"></td>
 		</tr>
 	<?php } ?>
+	<?php if ($formulir->no_kk=='Ya'){ ?>		
+		<tr>   
+			<td>Nomor KK</td>
+			<td>: </td>
+			<td style="border-bottom: 1px dotted"></td>
+		</tr>
+	<?php } ?>		
 		
 		<tr>   
 		    <td>Nama Ayah</td>

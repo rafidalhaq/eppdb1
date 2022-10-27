@@ -550,6 +550,14 @@
                           <div class="callout callout-info">
                                 <p>CATATAN : isian dengan tanda <span style="color:red;"><strong>* wajib diisi.</strong></span></p>
                           </div>                          
+                          <?php if ($formulir->no_kk=='Ya'){ ?>
+                          <div class="form-group">
+                                <label for="varchar">Nomor KK <?php echo form_error('no_kk') ?></label>
+                                <input type="text" class="form-control" name="no_kk" id="no_kk" placeholder="Nomor KK harus tepat 16 karakter" />
+                          </div>
+                          <?php } else { ?>
+                                <input type="hidden" class="form-control" name="no_kk" id="no_kk" />
+                          <?php } ?>                          
                           <?php if ($formulir->nama_ayah=='Ya'){ ?>
                           <div class="form-group">
                                 <label for="varchar">Nama Ayah <span style="color:red;">*</span> <?php echo form_error('nama_ayah') ?></label>
