@@ -74,6 +74,7 @@ class Formulir extends CI_Controller
 				'nama_tertera_di_kip' => $this->input->post('nama_tertera_di_kip',TRUE),
 				'terima_fisik_kartu_kip' => $this->input->post('terima_fisik_kartu_kip',TRUE),
 				// 'nama_ayah' => $this->input->post('nama_ayah',TRUE),
+				'no_kk' => $this->input->post('no_kk',TRUE),
 				'nik_ayah' => $this->input->post('nik_ayah',TRUE),
 				'tahun_lahir_ayah' => $this->input->post('tahun_lahir_ayah',TRUE),
 				'pendidikan_ayah' => $this->input->post('pendidikan_ayah',TRUE),

@@ -189,11 +189,12 @@
                         <div class="form-group">
                           <label for="varchar"><span class="label bg-purple">Data Ayah</span></label>
                         </div>
-                        <div class="form-group">                      
-                          <input type="checkbox" name="no_kk" id="no_kk" value="Ya" <?php if ($formulir->no_kk=='Ya') { echo 'checked'; } ?>>&nbsp; Nomor KK
-                        </div>   
+                          
                         <div class="form-group">                      
                           <input type="checkbox" name="nama_ayah" id="nama_ayah" value="Ya" checked required>&nbsp; Nama Ayah
+                        </div>
+                        <div class="form-group">                      
+                          <input type="checkbox" name="no_kk" id="no_kk" value="Ya" checked required>&nbsp; Nomor KK
                         </div> 
                         <div class="form-group">                      
                           <input type="checkbox" name="nik_ayah" id="nik_ayah" value="Ya" <?php if ($formulir->nik_ayah=='Ya') { echo 'checked'; } ?>>&nbsp; NIK Ayah

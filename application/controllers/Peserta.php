@@ -84,6 +84,7 @@ class Peserta extends CI_Controller
 				'no_kip' => $row->no_kip,
 				'nama_tertera_di_kip' => $row->nama_tertera_di_kip,
 				'terima_fisik_kartu_kip' => $row->terima_fisik_kartu_kip,
+				'no_kk' => $row->no_kk,
 				'nama_ayah' => $row->nama_ayah,
 				'nik_ayah' => $row->nik_ayah,
 				'tahun_lahir_ayah' => $row->tahun_lahir_ayah,
@@ -187,6 +188,7 @@ class Peserta extends CI_Controller
 			'no_kip' => set_value('no_kip'),
 			'nama_tertera_di_kip' => set_value('nama_tertera_di_kip'),
 			'terima_fisik_kartu_kip' => set_value('terima_fisik_kartu_kip'),
+			'no_kk' => set_value('no_kk'),
 			'nama_ayah' => set_value('nama_ayah'),
 			'nik_ayah' => set_value('nik_ayah'),
 			'tahun_lahir_ayah' => set_value('tahun_lahir_ayah'),
@@ -338,6 +340,7 @@ class Peserta extends CI_Controller
 				'no_kip' => $this->input->post('no_kip',TRUE),
 				'nama_tertera_di_kip' => $this->input->post('nama_tertera_di_kip',TRUE),
 				'terima_fisik_kartu_kip' => $this->input->post('terima_fisik_kartu_kip',TRUE),
+				'no_kk' => $this->input->post('no_kk',TRUE),
 				'nama_ayah' => $this->input->post('nama_ayah',TRUE),
 				'nik_ayah' => $this->input->post('nik_ayah',TRUE),
 				'tahun_lahir_ayah' => $this->input->post('tahun_lahir_ayah',TRUE),
@@ -438,6 +441,7 @@ class Peserta extends CI_Controller
 				'no_kip' => set_value('no_kip', $row->no_kip),
 				'nama_tertera_di_kip' => set_value('nama_tertera_di_kip', $row->nama_tertera_di_kip),
 				'terima_fisik_kartu_kip' => set_value('terima_fisik_kartu_kip', $row->terima_fisik_kartu_kip),
+				'no_kk' => set_value('no_kk', $row->no_kk),
 				'nama_ayah' => set_value('nama_ayah', $row->nama_ayah),
 				'nik_ayah' => set_value('nik_ayah', $row->nik_ayah),
 				'tahun_lahir_ayah' => set_value('tahun_lahir_ayah', $row->tahun_lahir_ayah),
@@ -548,6 +552,7 @@ class Peserta extends CI_Controller
 				'no_kip' => $this->input->post('no_kip',TRUE),
 				'nama_tertera_di_kip' => $this->input->post('nama_tertera_di_kip',TRUE),
 				'terima_fisik_kartu_kip' => $this->input->post('terima_fisik_kartu_kip',TRUE),
+				'no_kk' => $this->input->post('no_kk',TRUE),
 				'nama_ayah' => $this->input->post('nama_ayah',TRUE),
 				'nik_ayah' => $this->input->post('nik_ayah',TRUE),
 				'tahun_lahir_ayah' => $this->input->post('tahun_lahir_ayah',TRUE),
@@ -929,6 +934,7 @@ class Peserta extends CI_Controller
 	    xlsWriteLabel($tablebody, $kolombody++, $data->nama_tertera_di_kip);
 	    xlsWriteLabel($tablebody, $kolombody++, $data->terima_fisik_kartu_kip);
 	    xlsWriteLabel($tablebody, $kolombody++, $data->jenis_ekstrakurikuler);	    
+	    xlsWriteLabel($tablebody, $kolombody++, $data->no_kk);
 	    xlsWriteLabel($tablebody, $kolombody++, $data->nama_ayah);
 	    xlsWriteLabel($tablebody, $kolombody++, $data->nik_ayah);
 	    xlsWriteLabel($tablebody, $kolombody++, $data->tahun_lahir_ayah);
